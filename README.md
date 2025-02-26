@@ -26,7 +26,9 @@ npm install matter-js (installe la librairie matter-js)
 
 ```
 npm install (installe les dépendances dans votre projet)
+```
 
+```
 npm run dev (permet d'initier le projet Vite et d'obtenir le lien localhost)
 ```
 Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aide de pnpm.
