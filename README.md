@@ -13,9 +13,27 @@ Suika est un jeu qui existe déjà de base et ceci n'est qu'une copie (pas une c
 3. Quand vous êtes dans le dossier écrivez ceci :
 
 ```
-  git clone 
+  git clone https://github.com/Samantha1919/suika.git 
+```
+(celui ci est en HTTPS mais vous pouvez clôner la version SSH si besoin)
+
+4. Installez Vite et ouvrez votre projet dans VS Code, puis le terminal
+5. Effectuez ces commandes
 
 ```
+install 
+```
+
+```
+npm intsall (installe les dépendances dans votre projet)
+
+npm run dev
+```
+Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aide de pnpm.
+
+6. Vous obtenez un lien localhost que vous pouvez copier et coller dans votre navigateur à fin de visualiser votre projet
+7. Vous avez fini la partie chiante ! Vous pouvez enfin commencer à modifier votre projet  :) !
+
 
 
 ## Droits d'auteurs
