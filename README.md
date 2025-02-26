@@ -34,7 +34,7 @@ npm run dev (permet d'initier le projet Vite et d'obtenir le lien localhost)
 Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aide de pnpm.
 
 6. Vous obtenez un lien localhost que vous pouvez copier et coller dans votre navigateur à fin de visualiser votre projet
-7. Vous avez fini la partie chiante ! Vous pouvez enfin commencer à modifier votre projet  :) !
+7. Vous avez fini la partie compliquée ! Vous pouvez enfin commencer à modifier votre projet  :) !
 
 
 
@@ -97,6 +97,15 @@ License:
 The base code comes from a tuto by a youtuber called paulcode_ and I modified it. You can clone this repo but you can't take credit for it (unless you modify it of course).
 
 The original author of the game is Aladdin X.
+
+
+## TIPS
+
+Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clavier.
+
+
+To make the fruit fall, simply press the space bar on your keyboard.
+
 
 
 
