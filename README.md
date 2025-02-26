@@ -17,3 +17,30 @@ License :
 Le code de base vient d'un tuto d'un youtubeur appelé paulcode_ et je l'ai modifié. Vous pouvez clôner ce repo mais vous ne pouvez pas vous en attribuer les mérites (sauf si vous effectuez des modifs dessus bien sûr).
 
 L'auteur original du jeu est Aladdin X.
+
+
+
+
+## English Version
+
+## Description
+
+The aim of the game is to combine the fruits so that you end up with a watermelon. You mustn't go over the line at the top of the box, otherwise it's game over!
+
+Suika is a game that already exists and this is just a copy (not an exact copy, but the idea and principle of the game are the same).
+
+## How to clone the project ?
+
+
+## Copyright
+
+This project is a project: XXXXX.
+License:
+
+The base code comes from a tuto by a youtuber called paulcode_ and I modified it. You can clone this repo but you can't take credit for it (unless you modify it of course).
+
+The original author of the game is Aladdin X.
+
+
+
+
