@@ -7,6 +7,7 @@ import {
   Body,
   Sleeping,
 } from "matter-js";
+import { FRUITS } from "/fruits.js"
 
 
 const engine = Engine.create();
@@ -51,27 +52,55 @@ const box = Bodies.circle(50, 50, 50,);
 
 World.add(world, [ground,murDroite,murGauche]);
 
+
+
+
 Render.run(render);
 Runner.run(engine);
 
 let fruitDebut = null;
+let fruitDebut2 = null
 let interval = null;
 let disableAction = false;
 
 
 function addFruitDebut() {  // fruit en haut à faire tomber
+  console.log("salut");
 
-  const body = Bodies.circle(300, 50, 20, { // pk c render au lieu de options
-    isSleeping:true,  // met le fruit en attente, au "dodo"
-    render: {
-    fillStyle: "black",
-  },
+  const randomFruit = getRandomFruit();
 
-});
+  console.log(randomFruit.radius);
 
-fruitDebut = body;
+  const body = Bodies.circle(300, 50, randomFruit.radius, { // pk c render au lieu de options
+      label: randomFruit.label,  // le label sert d'identification, ce label nous servira plus tard pour les collisions ->permerettra de determiner si 2 fruits de mm type sont entrés en colision
+      isSleeping:true,  // met le fruit en attente, au "dodo"
+      render: {
+      fillStyle: randomFruit.color,
+      
+    },
+    
+
+  });
+
+  console.log(body);
+
+
+  fruitDebut = body;
+  fruitDebut2 = randomFruit;
+
+
 
   World.add(world, body);
+
+}
+
+function getRandomFruit(){
+  const randomIndex = Math.floor(Math.random() * 5);
+  const fruit = FRUITS[randomIndex];
+
+  if (fruitDebut.label === fruit.label) // c pr etre sur quon a pas 2 fois le  mm fruit mais tu peux le supp stv
+
+  return fruit;
 
 }
 
@@ -121,4 +150,7 @@ window.onkeyup = (event) => {
 
 
 addFruitDebut();
+
+
+
 
