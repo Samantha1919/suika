@@ -58,18 +58,17 @@ World.add(world, [ground,murDroite,murGauche]);
 Render.run(render);
 Runner.run(engine);
 
-let fruitBody = null;   // anciennement fruit debut  -> currentBody pr lui  // represente le type du fruit (orange,fraise ect..) -> bcp dinfos
-let fruitDebut1 = null    // nouvelle variable    -> currentFruit pour lui  // represente LE fruit en particulier
+let fruitBody = null;   // anciennement fruit debut //  -> currentBody pr lui  // represente le type du fruit (orange,fraise ect..) -> bcp dinfos
+let fruitDebut1 = null    // nouvelle variable  // -> currentFruit pour lui  // represente LE fruit en particulier
 let interval = null;
 let disableAction = false;
 
 
 function addFruitDebut() {  // fruit en haut à faire tomber
-  console.log("salut");
-
+  
   const randomFruit = getRandomFruit();
 
-  console.log(randomFruit.radius);
+  //console.log(randomFruit.radius);
 
   const body = Bodies.circle(300, 50, randomFruit.radius, { // pk c render au lieu de options
       label: randomFruit.label,  // le label sert d'identification, ce label nous servira plus tard pour les collisions ->permerettra de determiner si 2 fruits de mm type sont entrés en colision
@@ -100,10 +99,11 @@ function getRandomFruit(){
   const randomIndex = Math.floor(Math.random() * 5);
   const fruit = FRUITS[randomIndex];
 
-  //if (fruitDebut1.label === fruit.label) // c pr etre sur quon a pas 2 fois le  mm fruit mais tu peux le supp stv  // verifier quil soit pas null
+  // if (fruitDebut1.label === fruit.label){// c pr etre sur quon a pas 2 fois le  mm fruit mais tu peux le supp stv  // verifier quil soit pas null
+  //   return getRandomFruit();
+  // }
 
   return fruit;
-
 }
 
 
@@ -143,7 +143,7 @@ window.onkeydown = (event) => {
 }
 
 window.onkeyup = (event) => { 
-  console.log(event.code); // quand on relache la touche dcp up, ca stop l'intervalle dcp ca stop l'objet ca le freeze ca le laisse sur sa position
+  //console.log(event.code); // quand on relache la touche dcp up, ca stop l'intervalle dcp ca stop l'objet ca le freeze ca le laisse sur sa position
   switch (event.code) {
     case "ArrowLeft":
     case "ArrowRight": // pk on peut le mettre ici et on doit pas faire un 2eme window.onkeyup  
