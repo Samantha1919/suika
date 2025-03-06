@@ -77,6 +77,7 @@ function addFruitDebut() {  // fruit en haut à faire tomber
       fillStyle: randomFruit.color,
       
     },
+    restitution: 0.3,
 
    
 
@@ -99,9 +100,9 @@ function getRandomFruit(){
   const randomIndex = Math.floor(Math.random() * 5);
   const fruit = FRUITS[randomIndex];
 
-  // if (fruitDebut1.label === fruit.label){// c pr etre sur quon a pas 2 fois le  mm fruit mais tu peux le supp stv  // verifier quil soit pas null
-  //   return getRandomFruit();
-  // }
+  if (fruitDebut1 && fruitDebut1.label === fruit.label){// c pr etre sur quon a pas 2 fois le  mm fruit mais tu peux le supp stv  // verifier quil soit pas null // le && verifie si le fruitDebut1 existe et n'est pas null
+    return getRandomFruit();
+  }
 
   return fruit;
 }

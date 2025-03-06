@@ -21,7 +21,7 @@ export const FRUITS = [  // cv faire un tableau de fruits
         color : "#FFAF02",
     },
     {
-        label : "orange",
+        label : "orange",  //kaki
         radius : 106 / 2,
         color : "#FC8611",
     },
