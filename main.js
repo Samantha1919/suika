@@ -6,6 +6,7 @@ import {
   World,
   Body,
   Sleeping,
+  Events,
 } from "matter-js";
 import { FRUITS } from "/fruits.js"
 
@@ -77,9 +78,7 @@ function addFruitDebut() {  // fruit en haut à faire tomber
       fillStyle: randomFruit.color,
       
     },
-    restitution: 0.3,
-
-   
+    restitution: 0.3, // "vitesse" de rebondissement
 
   });
 
@@ -151,7 +150,36 @@ window.onkeyup = (event) => {
       clearInterval(interval);
       interval = null;  // on le remet sinon ca marchera plus commme  mon cas avant ca marchait quune seule fois qd jle bougeais
   }
-}
+};
+
+Events.on(engine, "collisionStart", (event) => {
+  event.pairs.forEach((collision) => {
+    if (collision.bodyA.label === collision.bodyB.label) {
+      World.remove(world, [collision.bodyA, collision.bodyB]); // supp un fruit pour en re créer un autre (sytseme de fusion) fait disparaitre le fruit
+      
+      const index = FRUITS.findIndex(fruit => fruit.label === collision.bodyA.label);
+
+      // si c la pasteque ne rien faire fin les faire disparaitre car il ny a pas de fruit apres la pasteque
+      if (index=== FRUITS.length - 1) return;
+
+      const newFruit = FRUITS[index + 1];  // enft jsp trop cmmt mais le code a des z index et comprend que ca se lit/crée dans le sens ou c ecrit genre 1234 et dcp ilcomprend que si les 2 premier se fusionne elles vont devenir le fuit d'en bas 1 + 1 = 2 
+      const body = Bodies.circle(
+        collision.collision.supports[0].x,
+        collision.collision.supports[0].y,
+        newFruit.radius,
+        {
+          render:{
+            fillStyle: newFruit.color,
+          },
+          label: newFruit.label
+          
+        }
+      )
+      World.add(world,body);
+    }
+  });
+});
+
 
 
 addFruitDebut();
