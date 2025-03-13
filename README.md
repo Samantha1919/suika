@@ -47,6 +47,10 @@ Le code de base vient d'un tuto d'un youtubeur appelé paulcode_ et je l'ai modi
 
 L'auteur original du jeu est Aladdin X.
 
+License des images : License gratuite
+Site : vecteezy.com
+Auteur des icônes des fruits : jumpdailogo
+
 
 
 
