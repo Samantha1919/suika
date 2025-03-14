@@ -53,6 +53,11 @@ Site : vecteezy.com
 
 Auteur des icônes des fruits : jumpdailogo
 
+## TIPS
+
+Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clavier.
+
+
 
 ## Remerciements ⭐
 
@@ -113,9 +118,6 @@ The original author of the game is Aladdin X.
 
 
 ## TIPS
-
-Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clavier.
-
 
 To make the fruit fall, simply press the space bar on your keyboard.
 
