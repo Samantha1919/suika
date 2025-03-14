@@ -16,7 +16,7 @@ export const FRUITS = [  // cv faire un tableau de fruits
         color : "#A969FF",
     },
     {
-        label : "kumquat",
+        label : "kumkwat",
         radius : 85 / 2,
         color : "#FFAF02",
     },
@@ -41,7 +41,7 @@ export const FRUITS = [  // cv faire un tableau de fruits
         color : "#FEB6AC",
     },
     {
-        label : "pinneapple",
+        label : "pineapple",
         radius : 270 / 2,
         color : "#F7E608",
     },

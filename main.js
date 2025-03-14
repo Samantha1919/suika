@@ -76,6 +76,7 @@ function addFruitDebut() {  // fruit en haut à faire tomber
       isSleeping:true,  // met le fruit en attente, au "dodo"
       render: {
       fillStyle: randomFruit.color,
+      sprite: { texture: `/${randomFruit.label}.png`,xScale:1, yScale:1 },
       
     },
     restitution: 0.3, // "vitesse" de rebondissement
@@ -170,11 +171,12 @@ Events.on(engine, "collisionStart", (event) => {
         {
           render:{
             fillStyle: newFruit.color,
+            sprite: { texture: `/${newFruit.label}.png` },
           },
-          label: newFruit.label
+          label: newFruit.label,
           
         }
-      )
+      );
       World.add(world,body);
     }
   });
