@@ -1,0 +1,7 @@
+.gameover{
+    color:red;
+    font-family: fantasy;
+    font-size:50px;
+    position:absolute;
+    z-index: -1;
+}
