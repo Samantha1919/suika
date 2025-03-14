@@ -54,6 +54,13 @@ Site : vecteezy.com
 Auteur des icônes des fruits : jumpdailogo
 
 
+## Remerciements ⭐
+
+- Mathias Martinez (merci pour les photos)
+- Georges Serna Duarte (pour le code)
+- Andres Castallini & Steven Destro
+
+
 
 
 ## English Version
