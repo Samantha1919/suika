@@ -1,7 +1,27 @@
 .gameover{
+    position:absolute;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    left:120px;
+    visibility: hidden;
+}
+
+.game{
     color:red;
     font-family: fantasy;
     font-size:50px;
-    position:absolute;
-    z-index: -1;
+    text-align: center;
+}
+
+.retry{
+    background-color: black;
+    border: 3px solid darkcyan !important;
+    border-radius: 50px;
+    color:white;
+    width:400px;
+    height:100px;
+    margin:0 auto;
+    font-family: monospace;
+
 }
