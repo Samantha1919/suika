@@ -47,11 +47,19 @@ const murDroite =  Bodies.rectangle(605, 395, 30, 790, {
 });
 
 
-const box = Bodies.circle(50, 50, 50,);
+const ligneHaut = Bodies.rectangle(310, 150, 620, 2,{
+  isStatic: true,  // nest pas soumis a la gravité
+  isSensor: true,  // nest pas soumis aux colllisions
+  render: { fillStyle: "#E6B143"},
+  label: "topLine",
+});
+
+
+const box = Bodies.circle(50, 50, 50,);  // jsp ce que cest ce nest pas dans son code git mais je pense ct dans le tuto ?? jsp a quoi ca sert
 
 
 
-World.add(world, [ground,murDroite,murGauche]);
+World.add(world, [ground,murDroite,murGauche,ligneHaut]);
 
 
 
@@ -111,6 +119,7 @@ function getRandomFruit(){
 
 
 window.onkeydown = (event) => {
+  if (disableAction) return; // si da est a true on ne peut plus bouger le fruit avec les touches
   switch (event.code) {   // switch choisit la condition possibles Right ou Left
     case "ArrowLeft":
       if (interval) return; // on peut mettre exit ou break ? 
@@ -133,7 +142,6 @@ window.onkeydown = (event) => {
       }, 5);
       break;
       case "Space":
-        if (disableAction) return;
         disableAction = true;
         Sleeping.set(fruitBody, false);    // met isSleeping à false
         setTimeout(() => {   // on ajoute un timeout pr que ca fasse un temps dattente avant quil y ait un nv fruit 
@@ -178,6 +186,12 @@ Events.on(engine, "collisionStart", (event) => {
         }
       );
       World.add(world,body);
+    }
+    if (
+      (collision.bodyA.label === "topLine" || collision.bodyB.label === "topLine") &&
+      !disableAction)
+      {
+      alert("Game over !");
     }
   });
 });
