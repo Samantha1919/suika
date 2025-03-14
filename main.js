@@ -197,7 +197,8 @@ Events.on(engine, "collisionStart", (event) => {
       // position absolute z-index:-1 
       //onclick="location.reload()
       let gameOver = document.getElementById("gameover");
-      gameOver.style.display = "flex";
+      gameOver.style.visibility = "visible";
+      
     }
   });
 });
