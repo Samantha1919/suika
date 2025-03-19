@@ -38,7 +38,7 @@ Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aid
 
 ## Remarques importantes
 
-Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais la version utiliséee maintenant est la version stable est la version 0.20.0 Dans la version 0.19.0 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
+Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais la version utiliséee maintenant est la version stable est la version 0.20.0. Dans la version 0.19.0 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
 
 ## Droits d'auteurs
 
@@ -107,6 +107,9 @@ If you have installed the p-npm extension, perform all these commands using pnpm
 
 6. You get a localhost link that you can copy and paste into your browser to view your project.
 7. You've finished the boring bit! You can finally start editing your project :)!
+
+## Important notes
+For this game I'm using the matter-js library. I use version 0.19.0 but the version used now is the stable version 0.20.0. In version 0.19.0 we used the World class but in the current stable version we use the Composite class.
 
 
 ## Copyright
