@@ -8,8 +8,8 @@ Suika est un jeu qui existe déjà de base et ceci n'est qu'une copie (pas une c
 
 ## Comment clôner le projet ?
 
-1. Créez un dossier ou vous aller clôner le projet dedans.
-2. Ouvrez votre terminal et faites des cd jusqu'à accéder au dossier (**cd** est une commande qui permet de vous déplacer dans les différents dossier de votre ordinateur, normalement quand vosu ouvrez votre terminal vous devriez vous trouver dans utilisateur, donc avec votre prénom/nom d'utilisateur).
+1. Créez un dossier ou vous allez clôner le projet dedans.
+2. Ouvrez votre terminal et faites des cd jusqu'à accéder au dossier (**cd** est une commande qui permet de vous déplacer dans les différents dossier de votre ordinateur, normalement quand vous ouvrez votre terminal vous devriez vous trouver dans utilisateur, donc avec votre prénom/nom d'utilisateur).
 3. Quand vous êtes dans le dossier écrivez ceci :
 
 ```
@@ -36,7 +36,9 @@ Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aid
 6. Vous obtenez un lien localhost que vous pouvez copier et coller dans votre navigateur à fin de visualiser votre projet
 7. Vous avez fini la partie compliquée ! Vous pouvez enfin commencer à modifier votre projet  :) !
 
+## Remarques importantes
 
+Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais la version utiliséee maintenant est la version stable est la version 0.20.0. Dans la version 0.19.0 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
 
 ## Droits d'auteurs
 
@@ -69,7 +71,7 @@ Voici le shéma de fusion des fruits
 - Mathias Martinez 
 - Georges Serna Duarte 
 - Andres Castallini & Steven Destro
-
+- Romain Mezghenna
 
 
 
@@ -111,6 +113,9 @@ If you have installed the p-npm extension, perform all these commands using pnpm
 6. You get a localhost link that you can copy and paste into your browser to view your project.
 7. You've finished the boring bit! You can finally start editing your project :)!
 
+## Important notes
+For this game I'm using the matter-js library. I use version 0.19.0 but the version used now is the stable version 0.20.0. In version 0.19.0 we used the World class but in the current stable version we use the Composite class.
+
 
 ## Copyright
 
@@ -125,6 +130,14 @@ The original author of the game is Aladdin X.
 ## TIPS
 
 To make the fruit fall, simply press the space bar on your keyboard.
+
+
+## Acknowledgements ⭐
+
+- Mathias Martinez
+- Georges Serna Duarte
+- Andres Castallini &amp;amp;amp; Steven Destro
+- Romain Mezghenna
 
 
 
