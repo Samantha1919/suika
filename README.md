@@ -17,19 +17,16 @@ Suika est un jeu qui existe déjà de base et ceci n'est qu'une copie (pas une c
 ```
 (ce lien ci est en HTTPS mais vous pouvez clôner la version SSH si besoin)
 
-4. Installez Vite et ouvrez votre projet dans VS Code, puis le terminal
+4. Ouvrez votre projet dans VS Code, puis le terminal
 5. Effectuez ces commandes
 
+
 ```
-npm install matter-js (installe la librairie matter-js)
+npm install # (installe les dépendances dans votre projet)
 ```
 
 ```
-npm install (installe les dépendances dans votre projet)
-```
-
-```
-npm run dev (permet d'initier le projet Vite et d'obtenir le lien localhost)
+npm run dev # (permet d'initier le projet Vite et d'obtenir le lien localhost)
 ```
 Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aide de pnpm.
 
@@ -95,19 +92,16 @@ Suika is a game that already exists and this is just a copy (not an exact copy, 
 ```
 (this link is in HTTPS but you can clone the SSH version if you need to)
 
-4. Install Vite and open your project in VS Code, then the terminal
+4. Open your project in VS Code, then the terminal
 5. Run these commands
 
+
 ```
-npm install matter-js (installs the matter-js library)
+npm install # (installs the dependencies in your project)
 ```
 
 ```
-npm install (installs the dependencies in your project)
-```
-
-```
-npm run dev (initiates the Vite project and obtains the localhost link)
+npm run dev # (initiates the Vite project and obtains the localhost link)
 ```
 If you have installed the p-npm extension, perform all these commands using pnpm.
 
