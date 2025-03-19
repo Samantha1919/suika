@@ -150,7 +150,7 @@ Here is the diagram of the fruit fusion !
 
 - Mathias Martinez
 - Georges Serna Duarte
-- Andres Castallini &amp;amp;amp; Steven Destro
+- Andres Castallini & Steven Destro
 - Romain Mezghenna
 
 
