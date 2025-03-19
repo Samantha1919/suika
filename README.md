@@ -20,6 +20,10 @@ Suika est un jeu qui existe déjà de base et ceci n'est qu'une copie (pas une c
 4. Ouvrez votre projet dans VS Code, puis le terminal
 5. Effectuez ces commandes
 
+```
+cd suika # (vous redirige vers le dossier pour effectuer toutes les actions dans celui-ci)
+```
+
 
 ```
 npm install # (installe les dépendances dans votre projet)
@@ -94,6 +98,11 @@ Suika is a game that already exists and this is just a copy (not an exact copy, 
 
 4. Open your project in VS Code, then the terminal
 5. Run these commands
+
+
+```
+cd suika # (redirects you to the folder to perform all actions in it)
+```
 
 
 ```
