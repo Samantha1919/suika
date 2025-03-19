@@ -38,7 +38,7 @@ Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aid
 
 ## Remarques importantes
 
-Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19 mais la version utiliséee maintenant est la version stable est la version 0.20. Dans la version 0.19 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
+Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais la version utiliséee maintenant est la version stable est la version 0.20.0 Dans la version 0.19.0 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
 
 ## Droits d'auteurs
 
