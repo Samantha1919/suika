@@ -58,7 +58,7 @@ Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clav
 
 ## Schéma fusion des fruits
 
-Voici le shéma de fusion des fruits
+Voici le schéma de fusion des fruits !
 
 
 ![fruits-schema drawio](https://github.com/user-attachments/assets/8a593d41-8d0a-4038-b16b-2b3931f393e2)
@@ -137,6 +137,8 @@ To make the fruit fall, simply press the space bar on your keyboard.
 
 
 ## Fruit fusion diagram
+
+Here is the diagram of the fruit fusion !
 
 ![fruits-schema drawio](https://github.com/user-attachments/assets/f2df1b82-0970-4285-8e6e-4c5c313c8b4f)
 
