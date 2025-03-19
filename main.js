@@ -62,16 +62,25 @@ const box = Bodies.circle(50, 50, 50,);  // jsp ce que cest ce nest pas dans son
 World.add(world, [ground, murDroite, murGauche, ligneHaut]);
 
 
-
-
 Render.run(render);
 Runner.run(engine);
+
+
 
 let fruitBody = null;   // anciennement fruit debut //  -> currentBody pr lui  // represente le type du fruit (orange,fraise ect..) -> bcp dinfos
 let fruitDebut1 = null    // nouvelle variable  // -> currentFruit pour lui  // represente LE fruit en particulier
 let interval = null;
 let disableAction = false;
+let finished = false;
 
+function debutJeu(){
+  fruitBody = null;
+  fruitDebut1 = null;
+  interval = null;
+  disableAction = false;
+  finished = false; // remet finished a false
+  addFruitDebut();
+}
 
 function addFruitDebut() {  // fruit en haut à faire tomber
 
@@ -90,8 +99,6 @@ function addFruitDebut() {  // fruit en haut à faire tomber
     restitution: 0.3, // "vitesse" de rebondissement
 
   });
-
-
 
 
   fruitBody = body;
@@ -117,9 +124,15 @@ function getRandomFruit() {
 
 
 
-
 window.onkeydown = (event) => {
-  if (disableAction) return; // si da est a true on ne peut plus bouger le fruit avec les touches
+
+  if (disableAction || finished){
+    return; // si da est a true on ne peut plus bouger le fruit avec les touches
+  } 
+
+
+
+
   switch (event.code) {   // switch choisit la condition possibles Right ou Left
     case "ArrowLeft":
       if (interval) return; // on peut mettre exit ou break ? 
@@ -151,6 +164,7 @@ window.onkeydown = (event) => {
       }, 1_000)
   }
 }
+
 
 window.onkeyup = (event) => {
   //console.log(event.code); // quand on relache la touche dcp up, ca stop l'intervalle dcp ca stop l'objet ca le freeze ca le laisse sur sa position
@@ -192,12 +206,11 @@ Events.on(engine, "collisionStart", (event) => {
     if (
       (collision.bodyA.label === "topLine" || collision.bodyB.label === "topLine") &&
       !disableAction) {
-      //option maj f
       // alert("Game over !");
-      // position absolute z-index:-1 
-      //onclick="location.reload()
       let gameOver = document.getElementById("gameover");
       gameOver.style.visibility = "visible";
+      //finished = true; // cond pour ne plus pouvoir utiliser les fleches ni espace ?  
+      finished = true;
       
     }
   });
@@ -205,18 +218,24 @@ Events.on(engine, "collisionStart", (event) => {
 
 
 
-addFruitDebut();
+
+
+debutJeu();  // on demarre le jeu le jeu commence
+// addFruitDebut();
 
 
 
 
 
-let gameOver = document.getElementById("gameover");
-gameOver.addEventListener("click", () => {
-  hfgd
-})
-gameOver.click = () => {
-  hfgd
-}
+// let gameOver = document.getElementById("gameover");
+// gameOver.addEventListener("click", () => {
+//   hfgd
+// })
+// gameOver.click = () => {
+//   hfgd
+// }
+// command maj et 7 pour commenter
+
+
 
 
