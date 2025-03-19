@@ -66,6 +66,9 @@ Voici le shéma de fusion des fruits
 
 
 
+![Uploading fruits-schema.drawio.png…]()
+
+
 ## Remerciements ⭐
 
 - Mathias Martinez 
