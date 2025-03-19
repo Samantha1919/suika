@@ -9,7 +9,7 @@ Suika est un jeu qui existe déjà de base et ceci n'est qu'une copie (pas une c
 ## Comment clôner le projet ?
 
 1. Créez un dossier ou vous aller clôner le projet dedans.
-2. Ouvrez votre terminal et faites des cd jusqu'à accéder au dossier (**cd** est une commande qui permet de vous déplacer dans les différents dossier de votre ordinateur, normalement quand vosu ouvrez votre terminal vous devriez vous trouver dans utilisateur, donc avec votre prénom/nom d'utilisateur).
+2. Ouvrez votre terminal et faites des cd jusqu'à accéder au dossier (**cd** est une commande qui permet de vous déplacer dans les différents dossier de votre ordinateur, normalement quand vous ouvrez votre terminal vous devriez vous trouver dans utilisateur, donc avec votre prénom/nom d'utilisateur).
 3. Quand vous êtes dans le dossier écrivez ceci :
 
 ```
@@ -125,6 +125,14 @@ The original author of the game is Aladdin X.
 ## TIPS
 
 To make the fruit fall, simply press the space bar on your keyboard.
+
+
+## Acknowledgements ⭐
+
+- Mathias Martinez
+- Georges Serna Duarte
+- Andres Castallini &amp;amp;amp; Steven Destro
+- Romain Mezghenna
 
 
 
