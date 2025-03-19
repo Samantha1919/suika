@@ -61,8 +61,8 @@ Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clav
 
 ## Remerciements ⭐
 
-- Mathias Martinez (merci pour les photos)
-- Georges Serna Duarte (pour le code)
+- Mathias Martinez 
+- Georges Serna Duarte 
 - Andres Castallini & Steven Destro
 
 
