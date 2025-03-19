@@ -57,6 +57,11 @@ Auteur des icônes des fruits : jumpdailogo
 
 Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clavier.
 
+## Schéma fusion des fruits
+
+Voici le shéma de fusion des fruits
+
+
 
 
 ## Remerciements ⭐
