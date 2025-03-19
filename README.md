@@ -42,9 +42,6 @@ Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais l
 
 ## Droits d'auteurs
 
-Ce projet est un projet : XXXXX.
-License :
-
 Le code de base vient d'un tuto d'un youtubeur appelé paulcode_ et je l'ai modifié. Vous pouvez clôner ce repo mais vous ne pouvez pas vous en attribuer les mérites (sauf si vous effectuez des modifs dessus bien sûr).
 
 L'auteur original du jeu est Aladdin X.
@@ -123,17 +120,25 @@ For this game I'm using the matter-js library. I use version 0.19.0 but the vers
 
 ## Copyright
 
-This project is a project: XXXXX.
-License:
-
 The base code comes from a tuto by a youtuber called paulcode_ and I modified it. You can clone this repo but you can't take credit for it (unless you modify it of course).
 
 The original author of the game is Aladdin X.
+
+Image license: Free license
+
+Site: vecteezy.com
+
+Author of fruit icons: jumpdailogo
 
 
 ## TIPS
 
 To make the fruit fall, simply press the space bar on your keyboard.
+
+
+## Fruit fusion diagram
+
+![fruits-schema drawio](https://github.com/user-attachments/assets/f2df1b82-0970-4285-8e6e-4c5c313c8b4f)
 
 
 ## Acknowledgements ⭐
