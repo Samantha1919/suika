@@ -36,7 +36,9 @@ Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aid
 6. Vous obtenez un lien localhost que vous pouvez copier et coller dans votre navigateur à fin de visualiser votre projet
 7. Vous avez fini la partie compliquée ! Vous pouvez enfin commencer à modifier votre projet  :) !
 
+## Remarques importantes
 
+Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19 mais la version utiliséee maintenant est la version stable est la version 0.20. Dans la version 0.19 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
 
 ## Droits d'auteurs
 
@@ -64,7 +66,7 @@ Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clav
 - Mathias Martinez 
 - Georges Serna Duarte 
 - Andres Castallini & Steven Destro
-
+- Romain Mezghenna
 
 
 
