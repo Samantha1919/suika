@@ -41,7 +41,7 @@ Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aid
 
 Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais la version utiliséee maintenant est la version stable est la version 0.20.0. Dans la version 0.19.0 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
 
-## Droits d'auteurs :large_orange_circle: 
+## Droits d'auteurs 🍋‍🟩
 
 Le code de base vient d'un tuto d'un youtubeur appelé paulcode_ et je l'ai modifié. Vous pouvez clôner ce repo mais vous ne pouvez pas vous en attribuer les mérites (sauf si vous effectuez des modifs dessus bien sûr).
 
