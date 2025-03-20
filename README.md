@@ -41,7 +41,7 @@ Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aid
 
 Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais la version utiliséee maintenant est la version stable est la version 0.20.0. Dans la version 0.19.0 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
 
-## Droits d'auteurs
+## Droits d'auteurs :large_orange_circle: 
 
 Le code de base vient d'un tuto d'un youtubeur appelé paulcode_ et je l'ai modifié. Vous pouvez clôner ce repo mais vous ne pouvez pas vous en attribuer les mérites (sauf si vous effectuez des modifs dessus bien sûr).
 
@@ -53,11 +53,11 @@ Site : vecteezy.com
 
 Auteur des icônes des fruits : jumpdailogo
 
-## TIPS
+## TIPS :tangerine: 
 
 Pour faire tomber un fruit il suffit d'appuyer sur la barre d'espace de ton clavier.
 
-## Schéma fusion des fruits
+## Schéma fusion des fruits :apple: 
 
 Voici le schéma de fusion des fruits !
 
@@ -77,15 +77,15 @@ Voici le schéma de fusion des fruits !
 
 
 
-## English Version
+## English Version :pear: 
 
-## Description
+## Description :peach: 
 
 The aim of the game is to combine the fruits so that you end up with a watermelon. You mustn't go over the line at the top of the box, otherwise it's game over!
 
 Suika is a game that already exists and this is just a copy (not an exact copy, but the idea and principle of the game are the same).
 
-## How to clone the project ?
+## How to clone the project ? :pineapple: 
 
 1. Create a folder in which to clone the project.
 2. Open your terminal and cd to the folder (**cd** is a command that allows you to move to different folders on your computer, normally when you open your terminal you should be in user, so with your first name/username).
@@ -117,11 +117,12 @@ If you have installed the p-npm extension, perform all these commands using pnpm
 6. You get a localhost link that you can copy and paste into your browser to view your project.
 7. You've finished the boring bit! You can finally start editing your project :)!
 
-## Important notes
+## Important notes :melon:
+
 For this game I'm using the matter-js library. I use version 0.19.0 but the version used now is the stable version 0.20.0. In version 0.19.0 we used the World class but in the current stable version we use the Composite class.
 
 
-## Copyright
+## Copyright :watermelon: 
 
 The base code comes from a tuto by a youtuber called paulcode_ and I modified it. You can clone this repo but you can't take credit for it (unless you modify it of course).
 
