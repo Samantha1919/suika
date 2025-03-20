@@ -1,12 +1,12 @@
 # Suika
 
-## Description (English version below)
+## Description (English version below) 🍒
 
 Le but du jeu est de réussir à combiner les fruits pour avoir une pastèque à la fin, il ne faut pas dépasser la ligne en haut dans la boîte sinon fin de la partie !
 
 Suika est un jeu qui existe déjà de base et ceci n'est qu'une copie (pas une copie exacte, mais l'idéé et le principe du jeu sont les mêmes).
 
-## Comment clôner le projet ?
+## Comment clôner le projet ? 🍓
 
 1. Créez un dossier ou vous allez clôner le projet dedans.
 2. Ouvrez votre terminal et faites des cd jusqu'à accéder au dossier (**cd** est une commande qui permet de vous déplacer dans les différents dossier de votre ordinateur, normalement quand vous ouvrez votre terminal vous devriez vous trouver dans utilisateur, donc avec votre prénom/nom d'utilisateur).
@@ -37,7 +37,7 @@ Si vous avez installé l'extension p-npm effectuez toutes ces commandes à l'aid
 6. Vous obtenez un lien localhost que vous pouvez copier et coller dans votre navigateur à fin de visualiser votre projet
 7. Vous avez fini la partie compliquée ! Vous pouvez enfin commencer à modifier votre projet  :) !
 
-## Remarques importantes
+## Remarques importantes :grapes: 
 
 Pour ce jeu j'utilise la librairie matter-js. J'utilise la version 0.19.0 mais la version utiliséee maintenant est la version stable est la version 0.20.0. Dans la version 0.19.0 on utilisait la classe World mais dans la version stable actuelle on utilise la classe Composite.
 
