@@ -1,6 +1,6 @@
 # Suika
 
-## Description
+## Description (English version below)
 
 Le but du jeu est de réussir à combiner les fruits pour avoir une pastèque à la fin, il ne faut pas dépasser la ligne en haut dans la boîte sinon fin de la partie !
 
