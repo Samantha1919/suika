@@ -135,12 +135,12 @@ Site: vecteezy.com
 Author of fruit icons: jumpdailogo
 
 
-## TIPS
+## TIPS :avocado: 
 
 To make the fruit fall, simply press the space bar on your keyboard.
 
 
-## Fruit fusion diagram
+## Fruit fusion diagram :coconut: 
 
 Here is the diagram of the fruit fusion !
 
