@@ -3,9 +3,16 @@
   z-index: 1;
   display: flex;
   flex-direction: column;
-  left: 120px;
   visibility: hidden; 
-  margin-left:500px;
+}
+
+#score {
+  position: relative;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  text-align: right;
+  font-family: monospace;
 }
 
 .game {
