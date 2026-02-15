@@ -10,6 +10,9 @@ import {
 } from "matter-js";
 import { FRUITS } from "/fruits.js"
 
+let score = 0; // une variable qui va garder le score
+
+const scoreElement = document.getElementById('score'); // on garde cet element dans une variable pour le mettre à jour plus tard
 
 const engine = Engine.create();
 const render = Render.create({
@@ -79,6 +82,7 @@ function debutJeu(){
   interval = null;
   disableAction = false;
   finished = false; // remet finished a false
+  score = 0; // remet le score à 0 quand on commence une nouvelle partie
   addFruitDebut();
 }
 
@@ -201,6 +205,8 @@ Events.on(engine, "collisionStart", (event) => {
         }
       );
       World.add(world, body);
+
+      updateScore(10); // on met à jour le score
     }
     // check si tu perds
     if (
@@ -216,8 +222,15 @@ Events.on(engine, "collisionStart", (event) => {
   });
 });
 
+function updateScore(points) {
+  // on ajoute les points dans la variable et on met à jour l'affichage sur score
+  score += points;
+  scoreElement.innerHTML = score;
+}
 
 
+scoreElement.style.right = render.canvas.getBoundingClientRect().left + 25 + "px"; // positionner le score à droite du jeu
+scoreElement.innerHTML = score;
 
 
 debutJeu();  // on demarre le jeu le jeu commence
